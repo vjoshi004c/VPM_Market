@@ -1,0 +1,50 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29306.81
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "VPM_MARKET_WEB", "VPM_MARKET_WEB\", "{EB683170-E6F8-4053-BC80-05DE46D79925}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv3.5"
+		ProjectReferences = "{C8FDFEAD-42FA-492E-866C-0653A2373155}|VPM_Entity.dll;"
+		Debug.AspNetCompiler.VirtualPath = "/VPM_MARKET_WEB"
+		Debug.AspNetCompiler.PhysicalPath = "VPM_MARKET_WEB\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\VPM_MARKET_WEB\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/VPM_MARKET_WEB"
+		Release.AspNetCompiler.PhysicalPath = "VPM_MARKET_WEB\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\VPM_MARKET_WEB\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "2088"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VPM_Entity", "VPM_Entity\VPM_Entity.csproj", "{C8FDFEAD-42FA-492E-866C-0653A2373155}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EB683170-E6F8-4053-BC80-05DE46D79925}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB683170-E6F8-4053-BC80-05DE46D79925}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB683170-E6F8-4053-BC80-05DE46D79925}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB683170-E6F8-4053-BC80-05DE46D79925}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{C8FDFEAD-42FA-492E-866C-0653A2373155}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C8FDFEAD-42FA-492E-866C-0653A2373155}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C8FDFEAD-42FA-492E-866C-0653A2373155}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C8FDFEAD-42FA-492E-866C-0653A2373155}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3924EE17-D291-4859-A640-7EB71697EE93}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,11 @@
+D:\VPM_Market_Main\VPM_Entity\bin\Debug\VPM_Entity.dll
+D:\VPM_Market_Main\VPM_Entity\bin\Debug\VPM_Entity.pdb
+D:\VPM_Market_Main\VPM_Entity\obj\Debug\ResolveAssemblyReference.cache
+D:\VPM_Market_Main\VPM_Entity\obj\Debug\VPM_Entity.dll
+D:\VPM_Market_Main\VPM_Entity\obj\Debug\VPM_Entity.pdb
+C:\Users\vjoshi\Documents\GitHub\VPM_Market_Main\VPM_Entity\bin\Debug\VPM_Entity.dll
+C:\Users\vjoshi\Documents\GitHub\VPM_Market_Main\VPM_Entity\bin\Debug\VPM_Entity.pdb
+C:\Users\vjoshi\Documents\GitHub\VPM_Market_Main\VPM_Entity\obj\Debug\VPM_Entity.csprojAssemblyReference.cache
+C:\Users\vjoshi\Documents\GitHub\VPM_Market_Main\VPM_Entity\obj\Debug\VPM_Entity.csproj.CoreCompileInputs.cache
+C:\Users\vjoshi\Documents\GitHub\VPM_Market_Main\VPM_Entity\obj\Debug\VPM_Entity.dll
+C:\Users\vjoshi\Documents\GitHub\VPM_Market_Main\VPM_Entity\obj\Debug\VPM_Entity.pdb

@@ -1,0 +1,195 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="VPM_Master_Admin.master.cs" Inherits="Master_VPM_Master_Admin" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server" id="_head"> 
+    <meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7"/> 
+    <link id="Link2" href="../CSS/VPMMarket.css" rel="stylesheet" type="text/css" /> 
+    <link id="Link1" href="../Includes/css/Report.css" rel="stylesheet" type="text/css" /> 
+
+    <link href="/Includes/css/jquery-ui-1.8.23.custom.css" rel="stylesheet" type="text/css" />
+    <link href="/Includes/css/jquery.ui.dialog.css" rel="stylesheet" type="text/css" />
+    <link href="../JAVASCRIPT/Menu.css" rel="stylesheet" type="text/css" />
+    <script src="/Includes/js/jquery-1.8.0.min.js" type="text/javascript"></script>
+    <script src="/Includes/js/jquery-ui-1.8.23.custom.min.js" type="text/javascript"></script>
+    <script src="/Includes/js/TurnPike.js" type="text/javascript"></script>      	    
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body  style="background-color:white" >
+<%--<body  style="background-color:#FCC9A7" >--%>
+
+    
+    <form id="form1" runat="server">   
+    <table id="header" width="99%" align="center" cellpadding="0" cellspacing="0" border="0">
+        <tr>       
+            <td style="width:15%"   align="left">
+                <img runat="server" id="_comcastLogo" alt="Comcast" src="~/IMAGES/vpm_marketLogo.bmp"  width="200" height="75" border="0" />            
+            </td>
+            <td style="width:85%" align="right" >
+            <table width="100%" >
+            <tr><td align="right" >
+            <asp:HyperLink ID="hlkHome" runat="server" Visible="false"  CssClass="anchorMenu"  NavigateUrl="~/User/Pages/Home.aspx" Text="Home" ></asp:HyperLink>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+            <asp:HyperLink ID="hlkSignOff"  runat="server" Visible="false" CssClass="anchorMenu"  NavigateUrl="~/SignOff.aspx"  Text="SignOff" ></asp:HyperLink>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+         
+            </td></tr>
+            
+            <tr><td align="right" >
+            .
+         </td></tr>
+         <tr><td align="right" >
+            <asp:Label ID="lblLoginUser"  runat="server" CssClass="loginFullName" ></asp:Label>
+         </td></tr>
+            </table>
+                <%--<table style="width:100%" >
+                    <tr>
+                        <td align="right"><asp:Label runat="server"   CssClass="labelHeaderForLocation"  ID="_location"></asp:Label> </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <table style="width:100%" >
+                                <tr><td align="right"  >
+                                    <div class='cssmenu' >
+                                        <ul id="ulMenu" runat="server" > 
+                                            <li id="ulMenu1" runat="server" ><a href='/Report.aspx'><span>SignOff</span></a></li>                              
+                                           <%-- <li id="ulMenu3" runat="server" class='has-sub '><a href='#'><span>Admin Cont..</span></a> 
+                                                <ul id="ulMenu3sm" >
+                                                    <li id="ulMenu3sm1" runat="server"  ><a href='/TAS.aspx'><span>TAS</span></a></li>
+                                                    <li id="ulMenu3sm2" runat="server"><a href='/TASFault.aspx'><span>TAS Fault Transations</span></a></li>
+                                                    <li id="ulMenu3sm3" runat="server"><a href='/TASAPIResponse.aspx'><span>TAS API Response Time</span></a></li>
+                                                    <li id="ulMenu3sm4" runat="server"><a href='/TASConfiguration.aspx'><span>TAS Configuration</span></a></li>                                                    
+                                                    <li id="ulMenu3sm5" runat="server"><a href='/AffiliateChannelProperty.aspx'><span>Affiliate/Channel/Property Datatype</span></a></li>
+                                                    <li id="ulMenu3sm6" runat="server"><a href='/ChannelNameOption.aspx'><span>Channel Name/Option</span></a></li>                                                    
+                                                    <li id="ulMenu3sm7" runat="server"><a href='/ChannelValue.aspx'><span>Channel Value</span></a></li>                                                    
+                                                    <li id="ulMenu3sm8" runat="server"><a href='/Users.aspx'><span>Admin Users</span></a></li> 
+                                                </ul>
+                                            </li>          
+                                            <li id="ulMenu2" runat="server" class='has-sub '><a href='#'><span>Admin</span></a>
+                                                <ul id="ulMenu2sm" >
+                                                    <li id="ulMenu2sm1" runat="server"><a href='/ConfigurationAdmin.aspx'><span>Property Configuration</span></a></li> 
+                                                    <li id="ulMenu2sm2" runat="server"><a href='/PresentationElementConfiguration.aspx'><span>PE Configuration</span></a></li>                                                   
+                                                    <li id="ulMenu2sm3" runat="server"><a href='/OrderStatusReport.aspx'><span>Order Status</span></a></li>
+                                                    <li id="ulMenu2sm4" runat="server"><a href='/OrderWorkListDetails.aspx'><span>Worklisted Order Details</span></a></li>
+                                                    <li id="ulMenu2sm5" runat="server"><a href='/CheckOrderWorkListDetails.aspx'><span>Worklisted Orders By Group</span></a></li>
+                                                </ul>
+                                            </li>--%>
+                            <%--                <li id="ulMenu2" runat="server" ><a href='/Default.aspx'><span>Back</span></a></li>
+                                            <li id="Li1" runat="server" ><a href='/Default.aspx'><span><div style="width:250px"></div></span></a></li>
+                                            <li  id="ulMenu3" runat="server"   ><span style=" width:250px;color:White;font-size: 15px;height:30px;  font-weight:bold;font-family:Verdana; vertical-align:bottom;"> Admin Section</span></li>
+                                            
+                                        </ul>
+                                    </div>
+                                </td></tr>
+                            </table> --%>           
+                        </td>
+                    </tr>
+                </table>            
+            </td>                                   
+        </tr>
+    <tr>
+    <td colspan="2" ><hr id="topLine" size="1" /></td>
+    </tr>   
+    </table>
+      <table id="Table2" width="100%" align="center" cellpadding="0" cellspacing="0" border="0" style="background-color:#FC821F" >
+        <tr >
+        <td  width="100%" style="vertical-align:text-top" align="center">
+                <table id="Table3" align="center" width="100%" cellpadding="0" cellspacing="0" border="0">
+                    <tr>
+                        <td >
+                            <div >
+                                <table cellpadding="0" cellspacing="0">
+                                     <tr>
+                                        <td  valign="middle" >
+                                            <asp:ContentPlaceHolder ID="ContentPlaceHolderSubMenu" runat="server"></asp:ContentPlaceHolder>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </div> 
+                        </td>
+                    </tr> 
+                </table>  
+            </td>
+            </table>
+    <table id="TableContent" width="100%" align="top" cellpadding="0" cellspacing="0" border="0" style="height:420px">
+        <tr >
+        <td  width="15%" style="vertical-align:text-top;background-color:white" align="right"  valign="top"  >
+         <asp:ContentPlaceHolder ID="ContentPlaceHolderLeft" runat="server"></asp:ContentPlaceHolder>
+                <%--<table id="Table1" align="right" width="100%" cellpadding="0" cellspacing="0" border="0">
+                    <tr>
+                        <td  valign="top">
+                            <div >
+                                <table cellpadding="0" cellspacing="0">
+                                     <tr>
+                                        <td >
+                                           
+                                        </td>
+                                    </tr>
+                                </table>
+                            </div> 
+                        </td>
+                    </tr> 
+                </table>  --%>
+            </td>
+            <td  width="74%"  style="vertical-align:text-top;background-color:white" align="right"  valign="top" >
+                <table id="TableContentLeft" width="100%" cellpadding="0" cellspacing="0" border="0">
+                    <tr>
+                        <td>
+                            <div style="width:100%">
+                                <table cellpadding="0" width="100%" cellspacing="0" >
+                                    <tr style="width:100%">
+                                        <td style="width:100%">
+                                            <asp:ContentPlaceHolder ID="MainPlaceHolder" runat="server"></asp:ContentPlaceHolder>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </div> 
+                        </td>
+                    </tr>
+                </table>
+            </td>
+            <td  width="1%" style="vertical-align:text-top" align="right">
+                <table id="TableContentRight" align="right" width="100%" cellpadding="0" cellspacing="0" border="0">
+                    <tr>
+                        <td >
+                            <div >
+                                <table cellpadding="0" cellspacing="0">
+                                     <tr>
+                                        <td >
+                                            <asp:ContentPlaceHolder ID="ContentPlaceHolderRight" runat="server"></asp:ContentPlaceHolder>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </div> 
+                        </td>
+                    </tr> 
+                </table>  
+            </td>
+        </tr>        
+    <tr>
+        <td colspan="2" align="center" style="font-family:Arial,Helvetica,sans-serif;font-size:small">©2012 Comcast</td>
+    </tr>
+    </table>  
+    <table id="Table4" width="100%" align="center" cellpadding="0" cellspacing="0" border="0">
+        <tr >
+        <td  width="100%" style="vertical-align:text-top" align="center">
+                <table id="Table5" align="center" width="100%" cellpadding="0" cellspacing="0" border="0">
+                    <tr>
+                        <td >
+                            <div >
+                                <table cellpadding="0" cellspacing="0">
+                                     <tr>
+                                        <td >
+                                            <asp:ContentPlaceHolder ID="ContentPlaceHolderFooter" runat="server"></asp:ContentPlaceHolder>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </div> 
+                        </td>
+                    </tr> 
+                </table>  
+            </td>
+            </table>
+    </form>
+</body>
+</html>

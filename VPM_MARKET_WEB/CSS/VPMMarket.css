@@ -1,0 +1,258 @@
+﻿body {
+}
+.gridHeader
+{
+    font-size: 15px;
+    font-weight: bold;   
+    font-family: Arial;
+    background: #ECF9C7; 
+    color: #FC821F;
+    text-align:left;  
+    height:30px;
+    width:5%
+}
+
+.labelSection
+{
+    font-size: 13px;
+    font-weight:bold ;   
+    font-family: Arial;
+    color: #83C0DC;
+    text-align:left;  
+    height:30px;
+    width:5%
+}
+.gridRows1
+{
+    border-width:1px; 
+    height:3px;  
+    border-style:solid;
+    color: #2A7BA1;
+    font-family: Arial;
+    font-size: 13px;   
+    border-color:#D1D6D2;
+    text-align:left;  
+}
+.linkMenu
+{
+     border-width:1px; 
+    height:5px;  
+    border-style:solid;
+    color: #FC821F;
+    font-family: Arial;
+    font-size: 15px;   
+    font-weight:bold;
+   background-color:white;
+    text-align:Center; 
+    border-color:White;
+    
+   
+}
+
+
+.linkMenuCheckOut
+{
+     border-width:1px; 
+    height:5px;  
+    border-style:solid;
+    color: white;
+    font-family: Arial;
+    font-size: 15px;   
+    font-weight:bold;
+    background-color:#83C0DC;
+    text-align:Center; 
+    border-color:White;
+     border-width:1px; 
+    text-align:Center; 
+
+   
+}
+.tdMenu
+{
+    height:30px;
+    border-width:1px; 
+    border-style:solid;
+    border-color:#FC821F;
+    border-bottom-color:#FC821F;
+    border-bottom-style:solid ;
+    border-bottom-width:4px;
+    background-color:white;
+}
+
+.tdCart
+{
+    height:11px;
+    border-width:1px; 
+    border-style:solid;
+    border-color:#D1D6D2;
+    border-bottom-color:#D1D6D2;
+    border-bottom-style:solid ;
+    border-bottom-width:1px;
+    background-color:white;
+    font-size:11px;
+     font-family:Arial;
+}
+.tdCartColumHeader
+{
+    height:15px;
+    border-width:1px; 
+    border-style:solid;
+    border-color:#D1D6D2;
+    border-bottom-color:#D1D6D2;
+    border-bottom-style:solid ;
+    border-bottom-width:1px;
+    background-color:#FC821F;
+    color:white;
+    font-size:11px;
+     font-family:Arial;
+}
+.tdCartHeader
+{
+    height:11px;
+    border-width:4px; 
+    border-style:solid;
+    border-color:#D1D6D2;
+    border-bottom-color:#D1D6D2;
+    border-bottom-style:solid ;
+    border-bottom-width:1px;
+    background-color:#D1D6D2;
+    color:#FC821F;
+    font-size:15px;
+     font-family:Arial;
+     font-weight:bold ;
+     
+}
+
+.tdCartFooter
+{
+    height:11px;
+    border-width:4px; 
+    border-style:solid;
+    border-color:#D1D6D2;
+ 
+    border-bottom-color:#D1D6D2;
+    border-bottom-style:solid ;
+    border-bottom-width:1px;
+    background-color:#D1D6D2;
+    font-size:11px;
+     font-family:Arial;
+}
+
+
+
+.tdMainMenu
+{
+    height:30px;
+
+    border-bottom-color:#ECF9C7;
+    border-bottom-style:solid ;
+    border-bottom-width:4px;
+    background-color:white;
+}
+.linkMenuReverse
+{
+     border-width:1px; 
+    height:5px;  
+    border-style:solid;
+    color: white;
+    font-family: Arial;
+    font-size: 15px;   
+    font-weight:bold;
+   background-color:#FC821F;
+    text-align:Center; 
+    border-color:#FC821F;
+    
+   
+}
+.tdMenuReverse
+{
+    height:30px;
+    border-width:1px; 
+    border-style:solid;
+    border-color:#FC821F;
+   background-color:#FC821F;
+}
+
+.anchorMenu
+{
+     font-size: 15px; 
+     font-family: Arial;
+     font-weight:bold;
+     color: #736C67;
+}
+
+.loginFullName
+{
+     font-size: 13px; 
+     font-family: Arial;
+     font-weight:bold;
+     color: #83C0DC;
+}
+.editDeleteSection
+{
+    border-style:solid;
+     border-width:1px; 
+     border-color:#D1D6D2; 
+     background-color:white;
+    
+}
+.EditDeleteHeader
+{
+    font-size: 15px; 
+     font-family: Arial;
+     font-weight:bold;
+     color: #736C67;
+}
+.ItemNameLabel
+{
+    font-size: 13px; 
+     font-family: Arial;
+     font-weight:bold;
+     color:#83C0DC;
+     background-color: #ECF9C7;
+     border-width:1px; 
+    border-style:solid;
+    text-align:Center; 
+    border-color:White;
+}
+.buttonAction
+{
+    font-size: 13px; 
+     font-family: Arial;
+     font-weight:bold;
+     color:white;
+     background-color: #83C0DC;
+     border-width:1px; 
+    border-style:solid;
+    text-align:Center; 
+    border-color:White;
+}
+.deleteMessage
+{
+    font-size: 13px; 
+     font-family: Arial;
+     font-weight:bold;
+     color: #554FAB;
+}
+.sectionHeader
+{
+     font-size: 22px; 
+     font-family: Arial;
+     font-weight:bold;
+     color: white;
+    
+     
+}
+.errorLabel
+{
+    font-size: 13px; 
+     font-family: Arial;
+     font-weight:bold;
+     color: Red;
+}
+
+
+
+
+
+
